@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "eec278b9-8eaf-48be-9d92-2c81b77727df": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"display: flex; ; justify-content: center; filter:drop-shadow(0 5px 5px #00000033)\">{{ collection.image | image_url: width: 400 | image_tag }}<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 32
+      }
+    },
+    "d52001a7-314c-4e39-aa6f-615bace87a5c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"margin: auto; padding: 0 40px; max-width: 1200px;\">{{ collection.description }}<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 52
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [
+        "img {width: 400px; object-fit: contain;}"
+      ],
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".product-grid {row-gap: 4rem;}"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 6,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "45d116b8-1086-4248-9e53-a384587904db": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15795167920295__45d116b8-1086-4248-9e53-a384587904db-1685462763b679594f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ shop.brand.short_description }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15795167920295__45d116b8-1086-4248-9e53-a384587904db-1685462763b679594f-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "eec278b9-8eaf-48be-9d92-2c81b77727df",
+    "d52001a7-314c-4e39-aa6f-615bace87a5c",
+    "banner",
+    "product-grid",
+    "45d116b8-1086-4248-9e53-a384587904db"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "c99e6921-eab4-4ced-abe6-847d0a56fb4f": {
+          "type": "text",
+          "settings": {
+            "heading": "Watch Guru",
+            "subtext": "<p>21 West 47th Street, <br\/>Suite 300 <br\/>New York, NY 10036<\/p><p>Tel: 1-212-302-8463<\/p><p>e-mail: info@watchguru.nyc<\/p><h6>Mon - Thurs 10am-6pm EST<\/h6><h6>Friday 10am-3pm EST<\/h6>"
+          }
+        },
+        "41056d77-b9d3-49c8-b6a6-9622510a5f2a": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Help",
+            "menu": "help"
+          }
+        },
+        "0b46348f-6626-45ec-bf8e-e1d66010c0bd": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Watch Education",
+            "menu": "watch-education"
+          }
+        },
+        "d783383a-032c-4a3b-a079-d561aca52b55": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "quick-links"
+          }
+        },
+        "c8dff72c-3422-462d-84c3-2d6af5b25564": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        }
+      },
+      "block_order": [
+        "c99e6921-eab4-4ced-abe6-847d0a56fb4f",
+        "41056d77-b9d3-49c8-b6a6-9622510a5f2a",
+        "0b46348f-6626-45ec-bf8e-e1d66010c0bd",
+        "d783383a-032c-4a3b-a079-d561aca52b55",
+        "c8dff72c-3422-462d-84c3-2d6af5b25564"
+      ],
+      "custom_css": [
+        "div {border-color: #121212;}",
+        "@media (min-width: 768px) {.footer__content-top .footer__blocks-wrapper .grid__item {width: calc(25% - var(--grid-desktop-horizontal-spacing) * 1) !important; }}",
+        ".footer-block__brand-info {display: flex; gap: 14px;}",
+        "img {padding-top: 7px; width: 150px; margin: 0.25rem auto;}",
+        "@media (max-width: 768px) {.footer-block__brand-info {display: flex; flex-direction: column; align-items: center; }}",
+        ".footer__content-top {padding-bottom: 0;}",
+        ".footer__content-bottom {padding-top: 0;}"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": false,
+        "show_policy": true,
+        "margin_top": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

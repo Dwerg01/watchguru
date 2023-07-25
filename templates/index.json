@@ -1,0 +1,272 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Elevate your wrist game",
+            "heading_size": "h1"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "Shop all",
+            "button_link_2": "shopify:\/\/collections\/all",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "custom_css": [
+        "div {border-color: #121212;}",
+        ".banner__box {width: 900px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Watch-Guru-cover.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "35d3be9f-1145-43a0-bc6a-c83f95d319fd": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }} Collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "available-now",
+        "products_to_show": 6,
+        "columns_desktop": 6,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2872b861-5b7c-453d-9bdd-247549352145": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15795167953063__2872b861-5b7c-453d-9bdd-247549352145-1681140609e5ed5975-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Uncompromising luxury at hand",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15795167953063__2872b861-5b7c-453d-9bdd-247549352145-1681140609e5ed5975-0"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    },
+    "3192daf4-ce01-4e00-a456-aca712401dae": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15795167953063__3192daf4-ce01-4e00-a456-aca712401dae-1681137306defacbc3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In today's world, time is everywhere. It blinks on our cell phones, laptops, and even our microwaves. Yet, despite the ubiquity of time, we never seem to have enough of it. That's why owning a luxury wristwatch is more important than ever. It's a symbol of punctuality, functionality, and taste that speaks volumes about its owner's class and style.<\/p><p>At Watch Guru, we offer an extensive collection of high-end brands, exquisite models, and multiple collections to satisfy the discerning tastes of our upmarket clientele. Our selection of quality brand watches defies the current threshold of low prices.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15795167953063__3192daf4-ce01-4e00-a456-aca712401dae-1681137306defacbc3-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Watch-Guru-Luxury-watch.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17cba429-ed2f-411f-8637-759d8e1937af": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15795167953063__17cba429-ed2f-411f-8637-759d8e1937af-1681137306defacbc3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br\/>Whether you prefer a classic, timeless design or a bold, statement-making piece, we have the perfect watch for you. We stand out with our commitment to excellence in customer service, sourcing the highest quality watches from around the world, and delivering them right to your doorstep.<\/p><p>So, whether you're a collector or just looking for your first luxury timepiece, Watch Guru is the online destination for you. Browse our collection today and elevate your style with the finest watches that will stop the time around.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15795167953063__17cba429-ed2f-411f-8637-759d8e1937af-1681137306defacbc3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Indulge yourself",
+            "button_link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--15795167953063__17cba429-ed2f-411f-8637-759d8e1937af-1681137306defacbc3-1",
+        "template--15795167953063__17cba429-ed2f-411f-8637-759d8e1937af-1681137306defacbc3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1021-4400E.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "We love {{ section.settings.collection.title }}",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "rolex-watches",
+        "products_to_show": 6,
+        "columns_desktop": 6,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "0c82cd46-7cb3-429d-892f-d8f03fc805a5": {
+      "type": "image-with-text",
+      "blocks": {
+        "8bebb7d1-abfa-44cd-b225-e7a831f7df52": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Watch Guru, New York's premier destination for luxury timepieces. Our carefully curated selection of the finest watch brands at attractive prices is designed to cater to the refined tastes of our discerning clients.<\/p><p>Our team is dedicated to providing the highest level of service, ensuring that every customer is satisfied with their purchase. As a proud member of the International Watch & Jewelry Guild, we have access to the world's largest database of dealers, allowing us to offer the most unique and sought-after timepieces.<\/p><p>With over 20 years of experience in the industry, we are passionate about finding the rarest designs, from Swiss-made to Italian-made timepieces. We encourage you to do your own research and ask questions, as our experts are always here to help meet your demands.<\/p><p>Thank you for choosing Watch Guru. We look forward to serving you and exceeding your expectations.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "88f821c5-afa8-4f4e-acec-d46c0d01486b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start shopping",
+            "button_link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "8bebb7d1-abfa-44cd-b225-e7a831f7df52",
+        "88f821c5-afa8-4f4e-acec-d46c0d01486b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1063-279459RBR-Rolex-Watch-Guru.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2de69b03-ee3b-419b-8bf5-eb7cd8391d2a": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15795167953063__2de69b03-ee3b-419b-8bf5-eb7cd8391d2a-1683226493687a8756-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--15795167953063__2de69b03-ee3b-419b-8bf5-eb7cd8391d2a-1683226493687a8756-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--15795167953063__2de69b03-ee3b-419b-8bf5-eb7cd8391d2a-1683226493687a8756-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--15795167953063__2de69b03-ee3b-419b-8bf5-eb7cd8391d2a-1683226493687a8756-0",
+        "template--15795167953063__2de69b03-ee3b-419b-8bf5-eb7cd8391d2a-1683226493687a8756-1",
+        "template--15795167953063__2de69b03-ee3b-419b-8bf5-eb7cd8391d2a-1683226493687a8756-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "35d3be9f-1145-43a0-bc6a-c83f95d319fd",
+    "2872b861-5b7c-453d-9bdd-247549352145",
+    "3192daf4-ce01-4e00-a456-aca712401dae",
+    "17cba429-ed2f-411f-8637-759d8e1937af",
+    "featured_collection",
+    "0c82cd46-7cb3-429d-892f-d8f03fc805a5",
+    "2de69b03-ee3b-419b-8bf5-eb7cd8391d2a"
+  ]
+}

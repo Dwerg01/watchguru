@@ -1,0 +1,118 @@
+{
+  "sections": {
+    "1e29bc73-89f8-4210-be86-7b105e1961e3": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--15795168051367__1e29bc73-89f8-4210-be86-7b105e1961e3-1685462763b679594f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "heading_size": "h1"
+          }
+        },
+        "template--15795168051367__1e29bc73-89f8-4210-be86-7b105e1961e3-1685462763b679594f-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--15795168051367__1e29bc73-89f8-4210-be86-7b105e1961e3-1685462763b679594f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15795168051367__1e29bc73-89f8-4210-be86-7b105e1961e3-1685462763b679594f-0",
+        "template--15795168051367__1e29bc73-89f8-4210-be86-7b105e1961e3-1685462763b679594f-1",
+        "template--15795168051367__1e29bc73-89f8-4210-be86-7b105e1961e3-1685462763b679594f-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "3c38d887-f8cc-4772-a7f2-ba2c31e235b5": {
+      "type": "image-banner",
+      "blocks": {
+        "69d494a7-5530-4fd9-a93a-b3bd14b65cb8": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "69d494a7-5530-4fd9-a93a-b3bd14b65cb8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Watch-Guru-vintage-watches-for-sale.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1aac0cfa-9a5d-483f-bc2b-6fbdc9804b6a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "1e29bc73-89f8-4210-be86-7b105e1961e3",
+    "3c38d887-f8cc-4772-a7f2-ba2c31e235b5",
+    "main",
+    "1aac0cfa-9a5d-483f-bc2b-6fbdc9804b6a"
+  ]
+}
