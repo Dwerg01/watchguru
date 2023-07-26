@@ -9,6 +9,7 @@ dialog.modal {
 
 .custom-button {
     width: 100%;
+    padding: 20px;
 }
 
 @media screen and (max-width: 750px) {
