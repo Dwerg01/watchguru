@@ -100,6 +100,33 @@
         "padding_bottom": 12
       }
     },
+    "9333653f-98fe-4f29-a3dd-bcd8d596ed80": {
+      "type": "contact-box",
+      "blocks": {
+        "788bd921-7e3e-4ea8-8d5f-1fa1d3de9d9f": {
+          "type": "contact_button",
+          "settings": {
+            "button_label": "Contact Us",
+            "contact_buttons": "default"
+          }
+        },
+        "4400b635-bb3a-438f-bb9f-2ecc236a93e2": {
+          "type": "contact_button",
+          "settings": {
+            "button_label": "Request a trade",
+            "contact_buttons": "request_a_trade"
+          }
+        }
+      },
+      "block_order": [
+        "788bd921-7e3e-4ea8-8d5f-1fa1d3de9d9f",
+        "4400b635-bb3a-438f-bb9f-2ecc236a93e2"
+      ],
+      "settings": {
+        "header": "Find out more about this product",
+        "text_area": "We appreciate any feedback we receive. If you are interested in this watch, contact us or request a trade and send us a picture of the watch you want to trade"
+      }
+    },
     "dfc24c87-e4af-428c-903f-ac8897270f39": {
       "type": "collapsible-content",
       "blocks": {
@@ -208,6 +235,7 @@
   },
   "order": [
     "main",
+    "9333653f-98fe-4f29-a3dd-bcd8d596ed80",
     "dfc24c87-e4af-428c-903f-ac8897270f39",
     "related-products"
   ]
