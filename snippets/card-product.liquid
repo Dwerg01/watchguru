@@ -196,8 +196,9 @@
                 </span>
               </p>
             {%- endif -%}
-
-            {% render 'price', product: card_product, price_class: '' %}
+              {% if product.tags contains "available_now" %}          
+                {% render 'price', product: card_product, price_class: '' %}
+              {% endif %}
           </div>
         </div>
         {%- if show_quick_add -%}
@@ -374,7 +375,9 @@
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
               <div class="caption-with-letter-spacing light">{{ 'products.product.vendor' | t }}</div>
             {%- endif -%}
+  {% if product.tags contains "available_now" %}          
             {% render 'price' %}
+              {% endif %}
           </div>
         </div>
       </div>

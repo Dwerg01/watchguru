@@ -1,10 +1,10 @@
 {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
 
     <dialog class="modal">
-      <h1>test header</h1>
-      <p>additional text placeholder</p>
+      <h1>Unlock Exclusive Pricing</h1>
+      <p>Our knowledgeable team is ready to provide you with Special Offers and Deals</p>
 
-      {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
+      {%- form 'contact', id: 'ContactForm', class: 'isolate custom-contact' -%}
         {%- if form.posted_successfully? -%}
           <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
             {% render 'icon-success' %}
@@ -27,6 +27,9 @@
           </ul>
         {%- endif -%}
         <div class="contact__fields">
+          <div class="field hidden">
+            <input type="hidden" name="page_url" id="page_url" value="" />
+          </div>
           <div class="field">
             <input
               class="field__input"

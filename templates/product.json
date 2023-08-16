@@ -28,14 +28,8 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": false
           }
         },
         "0edbd6ef-62eb-4460-aea6-5bb251577994": {
@@ -48,6 +42,13 @@
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<br>\n<div style=\"display:inline\">Card dated:<\/div>\n<div style=\"display:inline\">{{ product.metafields.custom.card_date }}<\/div>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
           }
         },
         "96612806-bdad-469f-8ead-764345b9322d": {
@@ -73,9 +74,9 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
         "0edbd6ef-62eb-4460-aea6-5bb251577994",
         "77e8936b-821a-473c-b988-415f27e3654f",
+        "buy_buttons",
         "96612806-bdad-469f-8ead-764345b9322d",
         "description",
         "share"
@@ -98,33 +99,6 @@
         "enable_video_looping": true,
         "padding_top": 36,
         "padding_bottom": 12
-      }
-    },
-    "9333653f-98fe-4f29-a3dd-bcd8d596ed80": {
-      "type": "contact-box",
-      "blocks": {
-        "788bd921-7e3e-4ea8-8d5f-1fa1d3de9d9f": {
-          "type": "contact_button",
-          "settings": {
-            "button_label": "Contact Us",
-            "contact_buttons": "default"
-          }
-        },
-        "4400b635-bb3a-438f-bb9f-2ecc236a93e2": {
-          "type": "contact_button",
-          "settings": {
-            "button_label": "Request a trade",
-            "contact_buttons": "request_a_trade"
-          }
-        }
-      },
-      "block_order": [
-        "788bd921-7e3e-4ea8-8d5f-1fa1d3de9d9f",
-        "4400b635-bb3a-438f-bb9f-2ecc236a93e2"
-      ],
-      "settings": {
-        "header": "Find out more about this product",
-        "text_area": "We appreciate any feedback we receive. If you are interested in this watch, contact us or request a trade and send us a picture of the watch you want to trade"
       }
     },
     "dfc24c87-e4af-428c-903f-ac8897270f39": {
@@ -235,7 +209,6 @@
   },
   "order": [
     "main",
-    "9333653f-98fe-4f29-a3dd-bcd8d596ed80",
     "dfc24c87-e4af-428c-903f-ac8897270f39",
     "related-products"
   ]

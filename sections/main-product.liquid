@@ -89,9 +89,10 @@
                 </a>
               </div>
             {%- when 'price' -%}
-            {% unless page.template contains 'available_now' %}
-              <div></div>
-              {% else %}
+              
+              {% unless product.tags contains "available_now" %}
+                <p></p>
+                {%  else %}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price',
                   product: product,
@@ -117,7 +118,7 @@
                   {{ form | payment_terms }}
                 {%- endform -%}
               </div>
-            {% endunless %}
+                {% endunless %}
             {%- when 'inventory' -%}
               <p
                 class="product__inventory no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
@@ -314,13 +315,13 @@
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
-              {% if product.tags contains "available_now" %}
+            {% unless product.tags contains "available_now" %}
                 <button class="button custom-button open-modal">Get a Quote
                 </button>
                 {% include 'custom-contact-form-1' %}
               {% else %}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
-              {% endif %}
+              {% endunless %}
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid
@@ -499,7 +500,9 @@
   {%- endif -%}
 
   <script>
-
+    document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("page_url").value = window.location.href;
+});
     const modal = document.querySelector(".modal")
     const openModal = document.querySelector(".open-modal")
     const closeModal = document.querySelector(".close-modal")
